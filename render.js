@@ -57,7 +57,7 @@ render.innerHTML = `<!DOCTYPE html>
                 <ul class="channel-list">
                     <li>
                         <a target="_blank" href="https://www.twitch.tv/alquimicodev">
-                            <img src="https://avatars.githubusercontent.com/u/88943961?v=4" width="150"
+                            <img src="https://avatars.githubusercontent.com/u/88943961?v=4" max-width="150"
                                 alt="Imagem de Simon">
                         </a>
                     </li>
