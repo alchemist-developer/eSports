@@ -12,11 +12,11 @@ render.innerHTML = `<!DOCTYPE html>
 
 <body>
 
-    <!-- <header>
+    <header>
         <div>
             <img src="https://avatars.githubusercontent.com/u/88943961?v=4" alt="Foto de Simon em pixelart" />
         </div>
-    </header> -->
+    </header>
 
     <main>
 
