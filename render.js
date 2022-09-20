@@ -7,6 +7,7 @@ render.innerHTML = `<!DOCTYPE html>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <title>NLW Esports</title>
 </head>
 
@@ -24,29 +25,49 @@ render.innerHTML = `<!DOCTYPE html>
             <div>
                 <h2>Meus jogos</h2>
                 <p>Os games que eu mais curto jogar!</p>
-                <ul class="games-list">
-                    <li>
-                        <a target="_blank" href="https://www.twitch.tv/directory/game/League%20of%20Legends">
-                            <img src="https://static-cdn.jtvnw.net/ttv-boxart/21779-188x250.jpg"
-                                alt="Imagem do jogo League of Legends">
-                        </a>
-                    </li>
 
-                    <li>
-                        <a target="_blank" href="https://www.twitch.tv/directory/game/VALORANT">
-                            <img src="https://static-cdn.jtvnw.net/ttv-boxart/516575-188x250.jpg"
-                                alt="Imagem do jogo Valorant">
-                        </a>
-                    </li>
+                <div class="swiper mySwiper">
+                    <ul class="games-list swiper-wrapper">
 
-                    <li>
-                        <a target="_blank" href="https://www.twitch.tv/directory/game/Lost%20Ark">
-                            <img src="https://static-cdn.jtvnw.net/ttv-boxart/490100-188x250.jpg"
-                                alt="Imagem do jogo Minecraft">
-                        </a>
-                    </li>
-                </ul>
+                        <li class="swiper-slide">
+                            <a target="_blank" href="https://www.twitch.tv/directory/game/Lost%20Ark">
+                                <img src="https://static-cdn.jtvnw.net/ttv-boxart/490100-188x250.jpg"
+                                    alt="Imagem do jogo Minecraft">
+                            </a>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <a target="_blank" href="https://www.twitch.tv/directory/game/Dark%20Souls">
+                                <img src="https://static-cdn.jtvnw.net/ttv-boxart/29433_IGDB-144x192.jpg"
+                                    alt="Imagem do jogo Minecraft">
+                            </a>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <a target="_blank" href="https://www.twitch.tv/directory/game/Tropico%206">
+                                <img src="https://static-cdn.jtvnw.net/ttv-boxart/497462_IGDB-144x192.jpg"
+                                    alt="Imagem do jogo Valorant">
+                            </a>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <a target="_blank" href="https://www.twitch.tv/directory/game/VALORANT">
+                                <img src="https://static-cdn.jtvnw.net/ttv-boxart/516575-188x250.jpg"
+                                    alt="Imagem do jogo Valorant">
+                            </a>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <a target="_blank" href="https://www.twitch.tv/directory/game/League%20of%20Legends">
+                                <img src="https://static-cdn.jtvnw.net/ttv-boxart/21779-188x250.jpg"
+                                    alt="Imagem do jogo League of Legends">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
             </div>
+
         </section>
 
         <section>
@@ -83,7 +104,6 @@ render.innerHTML = `<!DOCTYPE html>
             <div>
                 <h2>Minhas redes</h2>
                 <p>Se conecte comigo agora mesmo!</p>
-
                 <ul class="social-list">
                     <li>
                         <a target="_blank" href="https://www.twitch.tv/alquimicodev">
